@@ -1,0 +1,292 @@
+{
+  "settings": {
+    "name": "Site-03-15_1859",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "titlePreset": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#8a61ff"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.7.12",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "imageResize": true,
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "uniqCompNum": 4,
+    "versionPublish": "5.7.12",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "avideo2",
+          "_sourceTheme": "bootcampm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2 bootcampm5\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#8a61ff\" selected>\n        <header>Video</header>\n        <input type=\"text\" title=\"Link\" name=\"modalVideo\" value=\"https://www.youtube.com/watch?v=VA8PzkQa8d8\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/bootcampm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/bootcampm5/components/_images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#212132\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12\">\n                <div class=\"content-wrapper\">\n                    <div class=\"text-wrapper\">\n                        <h4 class=\"mbr-section-title align-left mbr-fonts-style mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">ACTIVE SLIM BACKPACK<br>(podróżuj z laptopem w prosty sposób)</h4>\n                        <h5 class=\"mbr-section-subtitle align-left mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Chcesz więcej? <a href=\"https://www.capcut.com/s/Cd8pEQmoAEgDC1Ef/\" class=\"link text-warning text-primary\">Przejdź do oferty</a></h5>\n                    </div>\n                    <div class=\"col-video\">\n                        <div class=\"box\">\n                            <div class=\"box-bg\">\n                            </div>\n                            <div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n                                <img src=\"@PROJECT_PATH@/assets/images/solidny-wygodny-plecak-1324x740.png\" alt=\"Mobirise\">\n                                <div class=\"icon-wrap\">\n                                    <a class=\"text-primary\" href=\"https://www.capcut.com/s/CXHCGOhklTC9bNYP/\">\n                                        <span mbr-icon class=\"mbr-iconfont socicon mobi-mbri-play mobi-mbri\" style=\"color: rgb(174, 94, 255); font-size: 50px; fill: rgb(174, 94, 255);\"></span>\n                                    </a>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only visually-hidden\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".container": {
+              "max-width": "1280px"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".content-wrapper": {
+              "display": "flex",
+              "align-items": "stretch",
+              "background": "@cardColor",
+              "justify-content": "flex-start",
+              "padding": "4rem",
+              "border-radius": "4.17rem",
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap"
+              },
+              "@media (max-width: 767px)": {
+                "padding": "4rem 6vw"
+              },
+              "@media (max-width: 575px)": {
+                "padding": "4rem 6vw 1.5rem"
+              },
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".text-wrapper": {
+              "width": "40%",
+              "@media (max-width: 991px)": {
+                "width": "100%"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#FFFFFF"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#FFFFFF",
+              "opacity": "0.8",
+              "margin-top": "50px",
+              "@media (max-width: 991px)": {
+                "margin-top": "32px"
+              },
+              "@media (max-width: 767px)": {
+                "margin-top": "24px"
+              }
+            },
+            ".link": {
+              "text-decoration": "underline !important"
+            },
+            ".col-video": {
+              "position": "relative",
+              "display": "flex",
+              "width": "60%",
+              "& when not (@reverseContent)": {
+                "right": "-8rem"
+              },
+              "& when (@reverseContent)": {
+                "left": "-8rem"
+              },
+              "@media (max-width: 1599px)": {
+                "& when not (@reverseContent)": {
+                  "right": "~\"calc(-4rem - 4vw)\""
+                },
+                "& when (@reverseContent)": {
+                  "left": "~\"calc(-4rem - 4vw)\""
+                }
+              },
+              "@media (max-width: 991px)": {
+                "left": "0",
+                "right": "0",
+                "width": "100%",
+                "margin-top": "40px",
+                "height": "350px"
+              },
+              "img": {
+                "object-fit": "cover",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "1.76rem"
+              },
+              ".box": {
+                "display": "flex",
+                "flex-direction": "column",
+                "width": "100%",
+                "border-radius": "2.08rem",
+                "position": "relative",
+                "& when (@showBorder)": {
+                  "background-image": "linear-gradient(90deg, #ffdd65 2.76%, #ffaa5c 29.66%, #ff49c0 61%, #8e59ff 99.93%)",
+                  "padding": "5px",
+                  ".box-bg": {
+                    "position": "absolute",
+                    "top": "0",
+                    "left": "0",
+                    "width": "100%",
+                    "height": "100%",
+                    "border-radius": "2.08rem",
+                    "background-image": "linear-gradient(135deg, #ffdd65 2.76%, #ffaa5c 29.66%, #ff49c0 61%, #8e59ff 99.93%)",
+                    "-webkit-filter": "blur(1rem)",
+                    "filter": "blur(1rem)"
+                  }
+                }
+              },
+              ".link-container": {
+                "display": "flex",
+                "margin-bottom": "2rem"
+              },
+              ".link": {
+                "margin-right": "1rem"
+              },
+              ".mbr-media": {
+                "display": "flex",
+                "height": "100%",
+                "width": "100%",
+                "border-radius": "1.76rem",
+                "overflow": "hidden",
+                "a:hover": {
+                  "background-image": "none !important"
+                }
+              }
+            },
+            ".mbr-media": {
+              "position": "relative",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".icon-wrap": {
+              "left": "50%",
+              "top": "50%",
+              "transform": "translate(-50%, -50%)",
+              "position": "absolute",
+              "transition": "all .3s",
+              "&:hover": {
+                "transform": "translate(-50%, -50%)"
+              }
+            },
+            ".mbr-media span": {
+              "font-size": "4rem",
+              "transition": "all 0.2s"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&:hover": {
+                "opacity": "1",
+                "background": "#000",
+                "color": "#fff"
+              }
+            },
+            "a": {
+              "&:hover": {
+                "text-decoration-line": "none !important"
+              }
+            }
+          },
+          "_cid": "u77aQQBoqu",
+          "_anchor": "avideo2-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
